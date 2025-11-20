@@ -16,4 +16,8 @@ print(slice)
 slice = a[0:3:1,5:6:1]
 print(slice)
 
-slice = a[3::1,]
+slice = a[3::1,2:4:1]
+print(slice)
+
+slice = a[3:4:1,5::1]
+print(slice)
